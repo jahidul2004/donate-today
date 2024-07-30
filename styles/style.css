@@ -507,3 +507,36 @@
 }
 
 /* Newsletter section end here */
+
+/* Footer section start from here */
+footer {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+footer .footer-info {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer-info .footer-title {
+    color: #ff5959;
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.footer-info .footer-description {
+    color: #d9dbe1;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Footer section end here */
