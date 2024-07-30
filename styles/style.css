@@ -290,6 +290,7 @@
 @media screen and (max-width:576px) {
     .donate-plan {
         height: max-content;
+        margin-bottom: 40px;
     }
 
     .plan .plan-info {
@@ -307,3 +308,82 @@
 }
 
 /* Donate plan section start from here */
+
+
+
+/* How to contribute section start from here */
+
+.how-to-contribute {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.how-to-contribute .contribute {
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contribute .contribute-info {
+    width: 50%;
+}
+
+.contribute .contribute-info .contribute-title {
+    color: #121212;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.contribute .contribute-info .contribute-description {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.contribute .contribute-image-container {
+    width: 50%;
+    height: 100%;
+}
+
+.contribute .contribute-image-container .contribute-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .how-to-contribute .contribute {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .how-to-contribute .contribute {
+        width: 90%;
+    }
+
+    .contribute .contribute-info {
+        width: 100%;
+    }
+
+    .contribute .contribute-info .contribute-title {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .contribute .contribute-image-container {
+        width: 100%;
+    }
+}
+
+/* How to contribute section end here */
