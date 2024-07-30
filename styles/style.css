@@ -311,7 +311,7 @@
 
 
 
-/* How to contribute section start from here */
+/* How to contribute main section start from here */
 
 .how-to-contribute {
     width: 100%;
@@ -331,6 +331,7 @@
 
 .contribute .contribute-info {
     width: 50%;
+    padding: 0 20px;
 }
 
 .contribute .contribute-info .contribute-title {
@@ -362,9 +363,18 @@
     border-radius: 10px;
 }
 
+.how-to-contribute .contribute-2 {
+    text-align: right;
+}
+
 @media screen and (max-width:576px) {
     .how-to-contribute .contribute {
         flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .how-to-contribute .contribute-2 {
+        flex-direction: column;
         text-align: center;
     }
 
@@ -384,6 +394,10 @@
     .contribute .contribute-image-container {
         width: 100%;
     }
+
+    .contribute .contribute-info {
+        padding: 0;
+    }
 }
 
-/* How to contribute section end here */
+/* How to contribute main section end here */
