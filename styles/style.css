@@ -401,3 +401,109 @@
 }
 
 /* How to contribute main section end here */
+
+/* Newsletter section start from here */
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter .newsletter-container {
+    width: 60%;
+    height: max-content;
+}
+
+.newsletter .newsletter-container .newsletter-info {
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.newsletter-info .newsletter-title {
+    color: #121212;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.newsletter-info .newsletter-description {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.newsletter-container .newsletter-input input[type="email"] {
+    width: 50%;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Inter;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0 10px;
+}
+
+.newsletter-container .newsletter-input input[type="submit"] {
+    width: max-content;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #FF5959;
+    border: none;
+    outline: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.newsletter-container .newsletter-input {
+    width: 100%;
+    height: max-content;
+    border-radius: 8px;
+    padding: 50px 10px;
+    background-color: #FFF4D6;
+}
+
+@media screen and (max-width:576px) {
+    .newsletter .newsletter-container {
+        width: 90%;
+    }
+
+    .newsletter .newsletter-container .newsletter-info {
+        width: 100%;
+    }
+
+    .newsletter .newsletter-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .newsletter-container .newsletter-input input[type="email"] {
+        width: 100%;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .newsletter-container .newsletter-input input[type="submit"] {
+        border-radius: 8px;
+    }
+}
+
+/* Newsletter section end here */
